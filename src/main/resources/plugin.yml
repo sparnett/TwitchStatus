@@ -1,0 +1,10 @@
+name: TwitchStatus
+version: 1.0
+main: org.sparnet.twitchstatus.TwitchStatus
+api-version: 1.20
+author: Sparnet
+description: Plugin to show live status in TAB.
+commands:
+  live:
+    description: Toggle your live status
+    usage: /live

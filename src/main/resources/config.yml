@@ -1,0 +1,19 @@
+# Configurazione del plugin TwitchStatus
+
+# Impostazioni generali
+settings:
+  enable_feature: true
+  message_color: "&a"
+
+# Impostazioni di default per i giocatori live
+live_player_defaults:
+  message: "From now players will see in TAB that you are LIVE!"
+
+# Impostazioni di default per i giocatori non live
+not_live_player_defaults:
+  message: "Players will now NOT be able to see that you are live in TAB!"
+
+# Impostazioni per i messaggi personalizzati
+messages:
+  live_on: "&aFrom now players will see in TAB that you are LIVE!"
+  live_off: "&cPlayers will now NOT be able to see that you are live in TAB!"
