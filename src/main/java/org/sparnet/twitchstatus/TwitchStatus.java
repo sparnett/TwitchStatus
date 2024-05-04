@@ -70,9 +70,3 @@ public class TwitchStatus extends JavaPlugin {
         configManager.setLivePlayer(player, livePlayer);
     }
 }
-
-
-
-
-
-

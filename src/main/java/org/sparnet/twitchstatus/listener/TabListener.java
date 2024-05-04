@@ -23,7 +23,7 @@ public class TabListener implements Listener {
     public void onTabComplete(TabCompleteEvent event) {
         List<String> completions = event.getCompletions();
 
-        // Itera sui giocatori onlinerima
+        // Itera sui giocatori online
         for (Player player : Bukkit.getOnlinePlayers()) {
             LivePlayer livePlayer = plugin.getLivePlayer(player);
             if (livePlayer != null && livePlayer.isLive()) {
